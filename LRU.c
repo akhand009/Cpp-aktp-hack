@@ -61,13 +61,13 @@ int lru(int n,int a[50],int nf)
                 {
                     if(c2[r]==b[0])
                         q[r]=a[i];
-                    printf("\t%d",q[r]);
+                    printf("\t\t\t\t%d",q[r]);
                 }
                 printf("\n");
         }
     }
 }
-printf("\nNumber of page faults is : %d\n",c);
+printf("\nNumber of page faults count will be : %d\n",c);
 }
 /****************************************************************/
 void main()
