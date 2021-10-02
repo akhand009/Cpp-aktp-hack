@@ -51,9 +51,11 @@ int lru(int n,int a[50],int nf)
                     {
                         if(b[r]<b[j])
                         {
+                            
                             t=b[r];
                             b[r]=b[j];
                             b[j]=t;
+                            break;
                         }
                     }
                 }
@@ -75,7 +77,7 @@ void main()
     int a[50],i,nf,n;
     printf("Enter no of pages:");
     scanf("%d",&n);
-    printf("Enter the reference string:");
+    printf("enter the reference string:");
     for(i=0;i<n;i++)
         scanf("%d",&a[i]);
     printf("Enter no of frames:");
