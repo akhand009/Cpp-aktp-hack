@@ -5,7 +5,7 @@ int lru(int n,int a[50],int nf)
     int q[20],k=0,c=0,r,i,j,t,c1,c2[20],b[20];
     q[k]=a[k];
     printf("\n");
-    printf("pages\t     LRU ALGORITHM       \n");
+    printf("pages\t     LRU ALGORITHM for the      \n");
     printf("%d",a[0]);
     printf("\t%d\n",q[k]);
     c++;
@@ -75,12 +75,12 @@ printf("\nNumber of page faults count will be : %d\n",c);
 void main()
 {
     int a[50],i,nf,n;
-    printf("Enter no of pages:");
+    printf("Enter no of page:");
     scanf("%d",&n);
     printf("enter the reference string:");
     for(i=0;i<n;i++)
         scanf("%d",&a[i]);
-    printf("Enter no of frames:");
+    printf("\nEnter no of frames:");
     scanf("%d",&nf);
     lru(n,a,nf);
 }
