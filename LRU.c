@@ -4,8 +4,8 @@ int lru(int n,int a[50],int nf)
 {
     int q[20],k=0,c=0,r,i,j,t,c1,c2[20],b[20];
     q[k]=a[k];
-    printf("\n");
-    printf("pages\t     LRU ALGORITHM for the      \n");
+    
+    printf("pages\t     LRU ALGORITHM for the \n");
     printf("%d",a[0]);
     printf("\t%d\n",q[k]);
     c++;
@@ -59,7 +59,7 @@ int lru(int n,int a[50],int nf)
                         }
                     }
                 }
-                for(r=0;r<nf;r++)
+                for(r=1;r<=nf;r++)
                 {
                     if(c2[r]==b[0])
                         q[r]=a[i];
@@ -82,6 +82,7 @@ void main()
         scanf("%d",&a[i]);
     printf("\nEnter no of frames:");
     scanf("%d",&nf);
+    
     lru(n,a,nf);
 }
 
