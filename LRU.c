@@ -10,7 +10,7 @@ int lru(int n,int a[50],int nf)
     printf("\t%d\n",q[k]);
     c++;
     k++;
-    for(i=1;i<n;i++)
+    for(i=0;i<n-1;i++)
     {
         printf("%d",a[i]);
         c1=0;
@@ -69,7 +69,7 @@ int lru(int n,int a[50],int nf)
         }
     }
 }
-printf("\nNumber of page faults count will be : %d\n",c);
+printf("Number of page faults count will be : %d\n",c);
 }
 /****************************************************************/
 void main()
@@ -80,7 +80,7 @@ void main()
     printf("enter the reference string:");
     for(i=0;i<n;i++)
         scanf("%d",&a[i]);
-    printf("\nEnter no of frames:");
+    printf("\nenter no of frames:");
     scanf("%d",&nf);
     
     lru(n,a,nf);
