@@ -5,7 +5,7 @@ int lru(int n,int a[50],int nf)
     int q[20],k=0,c=0,r,i,j,t,c1,c2[20],b[20];
     q[k]=a[k];
     
-    printf("pages\t  lru ALGORITHM for the \n");
+    printf("pages\t  Lru ALGORITHM for the \n");
     printf("%d",a[0]);
     printf("\t%d\n",q[k]);
     c++;
@@ -28,7 +28,7 @@ int lru(int n,int a[50],int nf)
                 k++;
                 for(j=1;j<=k;j++)
                 printf("\t%d",q[j]);
-                printf("\n");
+                
             }
             else
             {
@@ -63,7 +63,7 @@ int lru(int n,int a[50],int nf)
                 {
                     if(c2[r]==b[1])
                         q[r]=a[i];
-                    printf("\t\t\t\t%d",q[r]);
+                    printf("\t\t\t%d",q[r]);
                 }
              
         }
