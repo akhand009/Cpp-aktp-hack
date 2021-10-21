@@ -10,7 +10,7 @@ int lru(int n,int a[50],int nf)
     k++;
     for(i=0;i<n-1;i++)
     {
-        printf("%d",a[i]);
+        
         c1=0;
         for(j=0;j<nf;j++)
         {
