@@ -10,5 +10,5 @@ Apple.prototype={
  throw :function(){ return "throw" ;}
 };
 
-var app_1=new Apple("red",50);
-var app_21=new Apple("green",80);
+var app_1=new Apple("red",60);
+var app_21=new Apple("green",90);
