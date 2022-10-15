@@ -73,12 +73,12 @@ printf("Number of page faults count will be : %d\n",c);
 void main()
 {
     int a[50],i,nf,n;
-    printf("Enter no of page:");
+    printf("Enter number of page:");
     scanf("%d",&n);
-    printf("Enter the reference string:");
+    printf("Enter the Reference String:");
     for(i=0;i<n;i++)
         scanf("%d",&a[i]);
-    printf("\nEnter no of frames:");
+    printf("\nEnter number of frames:");
     scanf("%d",&nf);
     
     lru(n,a,nf);
