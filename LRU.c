@@ -72,8 +72,8 @@ printf("Number of page faults count will be : %d\n",c);
 /****************************************************************/
 void main()
 {
-    int a[50],i,nf,n;
-    printf("Enter no of page:");
+    int a[40],i,nf,n;
+    printf("enter no of page:");
     scanf("%d",&n);
     printf("Enter the reference string:");
     for(i=0;i<n;i++)
