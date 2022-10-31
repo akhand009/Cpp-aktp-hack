@@ -11,7 +11,7 @@ Apple.prototype={
 };
 
 
-var app_1=new Apple("red",50);
+var app_1=new Apple("red",52);
 var app_21=new Apple("green",82);
 =======
 var app_1=new Apple("red",50);
