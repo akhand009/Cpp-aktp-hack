@@ -6,7 +6,7 @@ function Apple(color,score)
 }
 
 Apple.prototype={
- eat:function(){ return "eat";},
+ eat:function(){ return "Eat";},
  throw :function(){ return "throw" ;}
 };
 
